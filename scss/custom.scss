@@ -33,3 +33,15 @@
   opacity: 0;
   transition: opacity 0.5s ease-out;
 }
+// Default line spacing
+.scrollspy-example {
+  line-height: 1.6;
+}
+
+// Media query for mobile devices
+@media (max-width: 768px) {
+  .scrollspy-example {
+    line-height: 1.4; // Adjust this value as needed
+    margin-bottom: auto;
+  }
+}

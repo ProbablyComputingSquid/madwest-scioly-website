@@ -34,4 +34,15 @@
   transition: opacity 0.5s ease-out;
 }
 
+.scrollspy-example {
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .scrollspy-example {
+    line-height: 1.4;
+    margin-bottom: auto;
+  }
+}
+
 /*# sourceMappingURL=custom.css.map */
