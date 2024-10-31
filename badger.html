@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends of Madison Area Science Clubs</title>
+    <link rel="stylesheet" href="scss/custom.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</head>
+<body data-bs-theme="dark">
+<script>
+    window.addEventListener('scroll', function() {
+        const scrollSuggestion = document.querySelector('.scroll-suggestion');
+        if (window.scrollY > 0) {
+            scrollSuggestion.classList.add('fade-out');
+        } else {
+            scrollSuggestion.classList.remove('fade-out');
+        }
+    });
+</script>
+<nav id="navbar-example2" class="navbar sticky-top bg-body-tertiary px-3 mb-3">
+    <a class="navbar-brand" href="index.html">Friends of Madison Area Science Clubs</a>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html#scrollspyHeading1">Our Mission</a>
+        </li>
+
+        <li class="nav-item d-flex">
+            <a class="btn btn-outline-success" href="https://donorbox.org/2025-science-donation-drive" target="_blank">Support Us</a>
+        </li>
+    </ul>
+</nav>
+<div class="px-4 py-xxl-5 my-xxl-5 text-center container-fluid" id="title">
+    <img class="object-fill-fit z-n1" src="" alt="">
+    <h1 class="display-3 fw-bolder text-body-emphasis">Badger Invitational</h1>
+    <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">plz sign up</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="#scrollspyHeading1" class="btn btn-primary btn-lg px-4 gap-3">register</a>
+            <a href="#scrollspyHeading2" class="btn btn-outline-secondary btn-lg px-4">learn more</a>
+        </div>
+    </div>
+</div>
+<div style="height:50vh" class="text-center container-fluid">
+    <a class="scroll-suggestion m-3" href="#scrollspyHeading1">
+        <span class="h3 fw-semibold">Scroll Down</span>
+        <div style="height: 2vh"></div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down arrow" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
+        </svg>
+    </a>
+</div>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2 text-center" tabindex="0">
+    <div class="container-sm vstack gap-3">
+        <div style="height: 10vh"></div>
+        <div class="text-bg-dark p-5">
+            <h1 id="scrollspyHeading1" class="display-5 fw-semibold">Quality of Competition</h1>
+            <div class="">
+                Our tournament is a nice local madison tournament, having hosted 12-ish teams from one state at our 2024 tournament.
+                These included 2 teams who placed in the 2024 National Tournament.
+            </div>
+        </div>
+        <div class="text-bg-dark p-5">
+            <h1 id="scrollspyHeading2" class="display-5 fw-semibold">Quality of Events</h1>
+            <div class="">
+                We have a variety of events, including all the events from the 2024 National Tournament, as well as some of our own events.
+            </div>
+        </div>
+        <div class="text-bg-dark p-5">
+            <h3 id="scrollspyHeading3" class="display-5 fw-normal">Awards & Results</h3>
+            <div>
+                We award medals or ribbons through eighth place for each event, and trophies to the best eight schools. A number of spirit awards and special prizes are also distributed. Additionally, we release raw scores, tests, and answer keys for all events to assist teams in better understanding and improving their performance.
+            </div>
+        </div>
+        <div class="text-bg-dark p-5">
+            <h3 id="scrollspyHeading4" class="display-5 fw-normal">Experienced Leadership</h3>
+            <div>
+                We have Kevin Bao.
+                </div>
+        </div>
+        <div class="text-bg-dark p-5">
+            <h3 id="scrollspyHeading5" class="display-5 fw-normal">Concessions and Hospitality</h3>
+            <div>
+                We run an inexpensive concessions stand for all participants and guests. We also provide a hospitality room for coaches and event supervisors.
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>
