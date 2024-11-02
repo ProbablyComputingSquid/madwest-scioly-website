@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friends of Madison Area Science Clubs</title>
+  <link rel="stylesheet" href="scss/custom.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</head>
+<body data-bs-theme="dark">
+<script>
+  window.addEventListener('scroll', function() {
+    const scrollSuggestion = document.querySelector('.scroll-suggestion');
+    if (window.scrollY > 0) {
+      scrollSuggestion.classList.add('fade-out');
+    } else {
+      scrollSuggestion.classList.remove('fade-out');
+    }
+  });
+</script>
+<nav id="navbar-example2" class="navbar sticky-top bg-body-tertiary px-3 mb-3">
+  <a class="navbar-brand" href="index.html">Friends of Madison Area Science Clubs</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Our Mission</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="badger.html">Badger Invitational</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Our Initiatives</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item nav-link active" href="scioly.html">Science Olympiad</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="chambergroup.html">Sounds of Music Chamber Group</a></li>
+      </ul>
+    </li>
+
+    <li class="nav-item d-flex">
+      <a class="btn btn-outline-success" href="https://donorbox.org/2025-science-donation-drive" target="_blank">Support Us</a>
+    </li>
+  </ul>
+</nav>
+<div class="px-4 py-xxl-5 my-xxl-5 text-center container-fluid" id="title">
+  <img class="object-fill-fit z-n1" src="" alt="">
+  <h1 class="display-3 fw-bolder text-body-emphasis">Friends of Madison Area Science Clubs</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">Educating the Innovators of Tomorrow, Today</p>
+    <!--<div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <a href="#scrollspyHeading1" class="btn btn-primary btn-lg px-4 gap-3">Our Mission</a>
+        <a href="#scrollspyHeading2" class="btn btn-outline-secondary btn-lg px-4">What is Science Olympiad?</a>
+    </div>-->
+  </div>
+</div>
+
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2 text-center" tabindex="0">
+  <div class="container-sm vstack gap-3">
+    <div class="border border-light border-3 text-bg-dark rounded p-5">
+      <h1 id="scrollspyHeading2" class="display-5 fw-semibold">Science Olympiad</h1>
+      <div>
+        Our main mission is supporting <a href="https://soinc.org" target="_blank">Science Olympiad</a> Teams in the Madison Area. <a href="https://soinc.org" target="_blank">Science Olympiad</a> is a team based STEM competition that allows schools to engage teams of up to 15 students in a sort of “field day” format competition. We help connect schools with resources and funding to run their teams and make this competition more accessible. We proudly sponsor the only invitational in the Madison Area, the Badger Invitational!
+      </div>
+  </div>
+
+
+</div>
+</div>
+</body>
+</html>
