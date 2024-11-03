@@ -1,3 +1,5 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
 .carousel-container {
   position: relative;
 }
@@ -17,15 +19,27 @@
 }
 
 // Media query for mobile devices
-@media (max-width: 768px) {
+@include media-breakpoint-down(sm) {
   .scrollspy-example {
     line-height: 1.4; // Adjust this value as needed
     margin-bottom: auto;
   }
+  #title {
+    height:min-content;
+    //display: none;
+  }
+  #spacer-fill {
+    height: 0vh !important;
+    position:absolute;
+  }
+  #titlebox {
+    display: none;
+  }
 }
-// what am i doing augh
+
 
 #title {
+  display: table;
   height:fit-content;
   width: 100vw;
 }

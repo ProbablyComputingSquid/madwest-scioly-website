@@ -10,38 +10,35 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </head>
 <body data-bs-theme="dark">
-<script>
-  window.addEventListener('scroll', function() {
-    const scrollSuggestion = document.querySelector('.scroll-suggestion');
-    if (window.scrollY > 0) {
-      scrollSuggestion.classList.add('fade-out');
-    } else {
-      scrollSuggestion.classList.remove('fade-out');
-    }
-  });
-</script>
-<nav id="navbar-example2" class="navbar sticky-top bg-body-tertiary px-3 mb-3">
-  <a class="navbar-brand" href="index.html">Friends of Madison Area Science Clubs</a>
-  <ul class="nav nav-pills">
-    <li class="nav-item">
-      <a class="nav-link" href="index.html">Our Mission</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="badger.html">Badger Invitational</a>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Our Initiatives</a>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item nav-link active" href="scioly.html">Science Olympiad</a></li>
-        <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="chambergroup.html">Sounds of Music Chamber Group</a></li>
-      </ul>
-    </li>
+<nav style="height:10vh" id="navbar-example2" class="navbar navbar-expand-lg sticky-top bg-body-tertiary px-3 mb-3">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Friends of Madison Area Science Clubs</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse bg-body-tertiary justify-content-end" id="navbarScroll"> 
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Our Mission</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="badger.html">Badger Invitational</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Our Initiatives</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item active" href="scioly.html">Science Olympiad</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="chambergroup.html">Sounds of Music Chamber Group</a></li>
+            </ul>
+        </li>
 
-    <li class="nav-item d-flex">
-      <a class="btn btn-outline-success" href="https://donorbox.org/2025-science-donation-drive" target="_blank">Support Us</a>
-    </li>
-  </ul>
+        <li class="nav-item d-flex">
+            <a class="btn btn-outline-success" href="https://donorbox.org/2025-science-donation-drive" target="_blank">Support Us</a>
+        </li>
+    </ul>
+    </div>
+  </div>
 </nav>
 <div class="px-4 py-xxl-5 my-xxl-5 text-center container-fluid" id="title">
   <img class="object-fill-fit z-n1" src="" alt="">
